@@ -1,0 +1,827 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 3000px;
+    perspective: 600px;
+}
+
+ .heder{
+    background-color:rgb(161, 159, 159);
+    width: 100%;
+    height: 83px;
+    top: 0px;
+    left: 0px;
+    opacity:1;
+    z-index: 999;
+
+    }
+    .img1{
+        width: 250px;
+        height: 60px;
+        margin-left: 125px;
+        margin-top: 20px;
+        float: left;
+      
+        }
+        
+        .list1{
+            float: left;
+            margin-left:80px ;
+            margin-top:35px ;
+       
+            }
+            
+            .list1 li{
+                list-style: none;
+                display: inline-block;
+                margin-left: 25px;
+                color: black;
+                opacity: 0.9;
+                font-size: 30px;
+                text-transform: capitalize; 
+            } 
+            
+             .list1 li a{
+                color: black;
+                text-decoration: none;
+                text-transform: capitalize;
+            } 
+          
+            .img2{
+                margin-left: 80px;
+                margin-top: 100px;
+             
+
+            }
+            .p1{
+                font-size: 70PX;
+                color: rgb(255, 0, 0);
+                margin-top: -350PX;
+                margin-left: 200px;
+            }
+            .but1{
+                height: 30px;
+                width:120px ;
+                margin-left: 205px;
+                margin-top: 30px;
+                color: rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                border:2PX solid rgb(255, 255, 255) ;
+
+            }
+            .list2{
+                float: left;
+                margin-left:850px ;
+            margin-top:-35px ;
+       
+            }
+            .list2 li{
+                list-style: none;
+                display: inline-block;
+                margin-left: 15px;
+                color: black;
+                opacity: 0.9;
+                font-size: 30px;
+                text-transform: capitalize; 
+            } 
+            
+             .list2 li a{
+                color: black;
+                text-decoration: none;
+                text-transform: capitalize;
+            }
+            .list2 p{
+                margin-left: 150px;
+                margin-top: -22px;
+                font-size: 20px;
+              
+            }
+            .list2 p:hover{
+              transform: scale(1.2 , 1.2);
+            }
+            .list2 i:hover{
+              transform: scale(1.2 , 1.2);
+            }
+            .h1{
+                margin-top:180px ;
+                text-align: center;
+                font-size: 35px;
+            }
+            .line1{
+                width:130px ;
+                height:3px ;
+             background-color: rgb(177, 189, 199);
+             margin-left: 680px;
+             margin-top: 10px;
+            
+            }
+            .line1:hover{
+              transform: scale(1.4,1.4);
+            }
+            .parent1{
+                margin-top:30px ;
+                 text-align:center; 
+             
+                
+
+            }
+            .div1{
+                height:300px ;
+                width:300px ;
+                display: inline-block;
+                background-image: url(../media/img3.jpg);
+                background-size: cover;
+            }
+             .div1 p{
+                margin-top: 300px;
+                margin-left: -140px;
+                font-size: 18px;
+                color: rgb(177, 189, 199);
+            } 
+            .div1 span{
+                margin-left: -10px;
+                font-size: 21px;
+            }
+            .div2{
+                height:300px ;
+                width:300px ;
+                display: inline-block;
+                background-image: url(../media/img4.jpg);
+                background-size: cover;
+            }
+            .div2 p{
+                margin-top: 300px;
+                margin-left: -140px;
+                font-size: 18px;
+                color: rgb(177, 189, 199);
+            } 
+            .div2 span{
+                margin-left: -10px;
+                font-size: 21px;
+            }
+            .div3{
+                height:300px ;
+                width:300px ;
+                display: inline-block;
+                background-image: url(../media/img5.jpg);
+                background-size: cover;
+            }
+            .div3 p{
+                margin-top: 300px;
+                margin-left: -140px;
+                font-size: 18px;
+                color: rgb(177, 189, 199);
+            } 
+            .div3 span{
+                margin-left: -10px;
+                font-size: 21px;
+            }
+            .div4{
+                height:300px ;
+                width:300px ;
+                display: inline-block;
+                background-image: url(../media/img6.jpg);
+                background-size: cover;
+            }
+            .div4 p{
+                margin-top: 300px;
+                margin-left: -140px;
+                font-size: 18px;
+                color: rgb(177, 189, 199);
+            } 
+            .div4 span{
+                margin-left: -10px;
+                font-size: 21px;
+            }
+       
+            
+             .q1{
+                 width:600px ;
+                 height:350px ;
+                 background-color: rgb(237, 234, 193);
+                 margin-top: 80px;
+                 margin-left: 150px;
+                
+                  float: left; 
+            } 
+            .q1 i{
+
+                font-size: 40px;
+                margin-left:30px ;
+                margin-top:0px ;
+                color: rgb(222, 180, 128);
+            }
+            .p4{
+                margin-left:70px ;
+                margin-top:-25px ;
+                font-size: 35px;
+            }
+            .n1{
+                font-size:20px ;
+                margin-left: 75px;
+                color: rgb(222, 180, 128);
+            }
+            .p5{
+                font-size: 23px;
+                color:  rgb(0, 0, 0);
+                margin-top: 15px ;
+            }
+            .line2{
+                width:80px ;
+                height:2px ;
+             background-color: rgb(222, 180, 128);
+              margin-left: 280px;
+             margin-top: 35px; 
+             float: left;
+            }
+            .line3{
+                width:80px ;
+                height:2px ;
+             background-color: rgb(222, 180, 128);
+              margin-left:25px ;
+             margin-top:35px; 
+             float: left;
+            }
+            .line4{
+                width:80px ;
+                height:2px ;
+             background-color: rgb(222, 180, 128);
+              margin-left:25px ;
+             margin-top:35px; 
+             float: left;
+            }
+
+            .q2{
+                height:350px ;
+                width:300px ;
+                background-color: brown;
+                background-image: url(../media/img7.jpg);
+                background-size: cover;
+                float: left;
+                margin-left: 15px;
+                margin-top: 80px;
+            }
+            .q2:hover{
+              transform: scale(1.1, 1.1);
+            }
+            .q2 p{
+                font-size: 30px;
+                margin-top: 15px;
+                margin-left: 20px;
+                
+            }
+            .q2 span{
+                margin-left:20px ;
+                font-size: 25px;
+                color: rgb(222, 180, 128);
+            }
+           
+            .q3{
+                height:350px ;
+                width:300px ;
+                background-color: rgb(16, 15, 15);
+                background-image: url(../media/img8.jpg);
+                background-size: cover;
+                float: left;
+                margin-left: 10px;
+                margin-top: 80px;
+                
+            }
+            .q3:hover{
+              transform: scale(1.1, 1.1);
+            }
+            .q3 p{
+                font-size: 30px;
+                margin-top: 15px;
+                margin-left: 20px;
+                color:black;
+            }
+            .q3 span{
+                margin-left:20px ;
+                font-size: 25px;
+                color: rgb(222, 180, 128);
+            }
+             .parent3{
+                 display: grid; 
+              grid-template-columns:repeat(5 , 1fr); 
+             grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr ;
+            gap: 5px;
+         
+     
+
+            } 
+            .g1{
+           
+                height:200px ;
+                width:200px ;
+                margin-top: 500px;
+                margin-left: -1210px;
+            }
+            .p6{
+                text-align: center;
+                margin-top: 50px;
+                font-size: 50px;
+                 }
+                 .p6 i:hover{
+                  transform: rotatex(360deg);
+                  transition: 2s;
+
+                 }
+                 .p7{
+                     font-size: 25px;
+                     text-align: center;
+     
+                 }
+               .p8{
+                 font-size: 17px;
+             text-align: center;
+             color: rgb(177, 189, 199);
+               }
+        
+            .g2{
+            
+                height:200px ;
+                width:200px ;
+                margin-top: 500px;
+                margin-left: -1000px;
+            }
+            .g3{
+            
+         
+                height:200px ;
+                width:200px ;
+                margin-top: 500px;
+                margin-left: -790px;
+            }
+           
+     
+            .g4{
+              
+            
+          
+                height:200px ;
+                width:200px ;
+                margin-top: 500px;
+                margin-left: -560px;
+            }
+
+     
+            .g5{
+             
+             
+                height:200px ;
+                width:200px ;
+                margin-top: 500px;
+                margin-left: -330px;
+            }
+            
+          .parent4 {
+            display: inline-block;
+            margin-left: -3px;
+            margin-top: 1430px;
+          }
+          .e1{
+            width:1px ;
+            height: 110px;
+            background-color: rgb(177, 189, 199);
+            margin-left: -990px;
+            margin-top: -1600px;
+
+          }
+          .e2{
+            width:1px ;
+            height: 110px;
+            background-color: rgb(177, 189, 199);
+            margin-left: -747px;
+            margin-top: -110px;
+
+          }
+          .e3{
+            width:1px ;
+            height: 110px;
+            background-color: rgb(177, 189, 199);
+            margin-left: -495px;
+            margin-top: -110px;
+
+          }
+          .e4{
+            width:1px ;
+            height: 110px;
+            background-color: rgb(177, 189, 199);
+            margin-left: -233px;
+            margin-top: -110px;
+          }
+          .e5{
+            width: 80%;
+            height: 1px;
+            background-color: rgb(177, 189, 199);
+            margin-top: -3500px;
+            margin-left: 150px;
+          }
+          .m1{
+            margin-left: 570px;
+            margin-top: 30px;
+          }
+.m1 p{
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 20px;
+  color:  rgb(222, 180, 128);
+}
+.h20{
+  margin-left: 590px;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+
+          .s1{
+display: flex;
+transition: 1s;
+transform-style: preserve-3d;
+justify-content: space-between;
+margin-top: 100px;
+margin-left: 150px;
+
+
+          }
+          .s1:hover{
+             transform: rotateY(180deg); 
+             backface-visibility: hidden; 
+        
+          }
+          .s1 , .t1 , .t2{
+
+            height:400px ;
+            width:350px ;
+          }
+          .t1,.t2{
+            position: absolute;
+          }
+          .t1{
+  
+    background-image: url(../media/img9.jpg);
+    background-size: cover;
+    z-index: 3;
+    backface-visibility: hidden;
+
+          }
+     
+          .t2{
+            background-image: url(../media/img11.jpg);
+            background-size: cover;
+            transform: rotateY(180deg);
+          }
+          .p10{
+            font-size: 20px;
+            margin-top: 10px;
+            margin-left: 145px;
+          }
+          
+          .p10 span{
+            color: yellow;
+          }
+          .p11{
+        font-size: 19px;
+        margin-left: 145px;
+
+          }
+          .p12{
+            font-size: 20px;
+            margin-left: 145px;
+          }
+           .t2 i{
+       
+color: rgb(255, 255, 255);
+
+          } 
+           .v1{
+            float: left;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(177, 189, 199);
+            font-size: 50px;
+            margin-top: 170px;
+            margin-left: 60px;
+           }
+           .v2{
+            float: left;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(177, 189, 199);
+            font-size: 50px;
+            margin-top: 170px;
+            margin-left: 10px;
+           }
+           .v3{
+            float: left;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(177, 189, 199);
+            font-size: 50px;
+            margin-top: 170px;
+            margin-left: 10px;
+           }
+           .v4{
+            float: left;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(177, 189, 199);
+            font-size: 50px;
+            margin-top: 170px;
+            margin-left: 10px;
+           }
+           .s2{
+            display: flex;
+            transition: 1s;
+            transform-style: preserve-3d;
+            justify-content: space-between;
+            width: 80%;
+            margin-top: -475px;
+            margin-left: 600px;
+            
+            
+            
+                      }
+                      .s2:hover{
+                         transform: rotateY(180deg); 
+                         backface-visibility: hidden; 
+                    
+                      }
+                      .s2 , .t3 , .t4{
+            
+                        height:400px ;
+                        width:350px ;
+                      }
+                      .t3,.t4{
+                        position: absolute;
+                      }
+                      .t3{
+              
+                background-image: url(../media/img12.jpg);
+                background-size: cover;
+                z-index: 3;
+                backface-visibility: hidden;
+            
+                      }
+                 
+                      .t4{
+                        background-image: url(../media/img13.jpg);
+                        background-size: cover;
+                        transform: rotateY(180deg);
+                      }
+                      .p13{
+                        font-size: 20px;
+                        margin-top: 10px;
+                        margin-left: 600px;
+                      }
+                      
+                      .p13 span{
+                        color: yellow;
+                      }
+                      .p14{
+                    font-size: 19px;
+                    margin-left:600px;
+            
+                      }
+                      .p15{
+                        font-size: 20px;
+                        margin-left: 600px;
+                      }
+                      
+                       .s3{
+                        display: flex;
+                        transition: 1s;
+                        transform-style: preserve-3d;
+                        justify-content: space-between;
+                        width: 80%;
+                        margin-top: -480px;
+                        margin-left: 1050px;
+                                  }
+                                  .s3:hover{
+                                     transform: rotateY(180deg); 
+                                     backface-visibility: hidden; 
+                                
+                                  }
+                                  .s3 , .t5 , .t6{
+                        
+                                    height:400px ;
+                                    width:350px ;
+                                  }
+                                  .t5,.t6{
+                                    position: absolute;
+                                  }
+                                  .t5{
+                          
+                            background-image: url(../media/img8.jpg);
+                            background-size: cover;
+                            z-index: 3;
+                            backface-visibility: hidden;
+                        
+                                  }
+                             
+                                  .t6{
+                                    background-image: url(../media/img10.jpg);
+                                    background-size: cover;
+                                    transform: rotateY(180deg);
+                                  }
+                                  .p16{
+                                    font-size: 20px;
+                                    margin-top: 10px;
+                                    margin-left: 1050px;
+                                  }
+                                  
+                                  .p16 span{
+                                    color: yellow;
+                                  }
+                                  .p17{
+                                font-size: 19px;
+                                margin-left:1050px;
+                        
+                                  }
+                                  .p18{
+                                    font-size: 20px;
+                                    margin-left: 1050px;
+                                  }
+
+                              
+                       .s4{
+                        display: flex;
+                        transition: 1s;
+                        transform-style: preserve-3d;
+                        justify-content: space-between;
+                        width: 80%;
+                        margin-top: 77px;
+                        margin-left: 150px;
+                    
+                        
+                        
+                        
+                                  }
+                                  .s4:hover{
+                                     transform: rotateY(180deg); 
+                                     backface-visibility: hidden; 
+                                
+                                  }
+                                  .s4 , .t7 , .t8{
+                        
+                                    height:400px ;
+                                    width:350px ;
+                                  }
+                                  .t7,.t8{
+                                    position: absolute;
+                                  }
+                                  .t7{
+                          
+                            background-image: url(../media/img10.jpg);
+                            background-size: cover;
+                            z-index: 3;
+                            backface-visibility: hidden;
+                        
+                                  }
+                             
+                                  .t8{
+                                    background-image: url(../media/img6.jpg);
+                                    background-size: cover;
+                                    transform: rotateY(180deg);
+                                  }
+                                  .p19{
+                                    font-size: 20px;
+                                    margin-top: 10px;
+                                    margin-left: 150px;
+                                  }
+                                  
+                                  .p19 span{
+                                    color: yellow;
+                                  }
+                                  .p20{
+                                font-size: 19px;
+                                margin-left:150px;
+                        
+                                  }
+                                  .p21{
+                                    font-size: 20px;
+                                    margin-left: 150px;
+                                  }                           
+ 
+                                  
+                                  .s5{
+                                    display: flex;
+                                    transition: 1s;
+                                    transform-style: preserve-3d;
+                                    justify-content: space-between;
+                                    width: 80%;
+                                    margin-top: -470px;
+                                    margin-left: 600px;
+                                              }
+                                              .s5:hover{
+                                                 transform: rotateY(180deg); 
+                                                 backface-visibility: hidden; 
+                                            
+                                              }
+                                              .s5 , .t9 , .t10{
+                                    
+                                                height:400px ;
+                                                width:350px ;
+                                              }
+                                              .t9,.t10{
+                                                position: absolute;
+                                              }
+                                              .t9{
+                                      
+                                        background-image: url(../media/img7.jpg);
+                                        background-size: cover;
+                                        z-index: 3;
+                                        backface-visibility: hidden;
+                                    
+                                              }
+                                         
+                                              .t10{
+                                                background-image: url(../media/img14.jpg);
+                                                background-size: cover;
+                                                transform: rotateY(180deg);
+                                              }
+                                              .p22{
+                                                font-size: 20px;
+                                                margin-top: 10px;
+                                                margin-left: 600px;
+                                              }
+                                              
+                                              .p22 span{
+                                                color: yellow;
+                                              }
+                                              .p23{
+                                            font-size: 19px;
+                                            margin-left:600px;
+                                    
+                                              }
+                                              .p24{
+                                                font-size: 20px;
+                                                margin-left: 600px;
+                                              }   
+                                              
+                                              
+                                              .s6{
+                                                display: flex;
+                                                transition: 1s;
+                                                transform-style: preserve-3d;
+                                                justify-content: space-between;
+                                                width: 80%;
+                                                margin-top: -475px;
+                                                margin-left: 1050px;
+                                            
+                                                
+                                                
+                                                
+                                                          }
+                                                          .s6:hover{
+                                                             transform: rotateY(180deg); 
+                                                             backface-visibility: hidden; 
+                                                        
+                                                          }
+                                                          .s6 , .t11 , .t12{
+                                                
+                                                            height:400px ;
+                                                            width:350px ;
+                                                          }
+                                                          .t11,.t12{
+                                                            position: absolute;
+                                                          }
+                                                          .t11{
+                                                  
+                                                    background-image: url(../media/img11.jpg);
+                                                    background-size: cover;
+                                                    z-index: 3;
+                                                    backface-visibility: hidden;
+                                                
+                                                          }
+                                                     
+                                                          .t12{
+                                                            background-image: url(../media/img12.jpg);
+                                                            background-size: cover;
+                                                            transform: rotateY(180deg);
+                                                          }
+                                                          .p25{
+                                                            font-size: 20px;
+                                                            margin-top: 10px;
+                                                            margin-left: 1050px;
+                                                          }
+                                                          
+                                                          .p25 span{
+                                                            color: yellow;
+                                                          }
+                                                          .p26{
+                                                        font-size: 19px;
+                                                        margin-left:1050px;
+                                                
+                                                          }
+                                                          .p27{
+                                                            font-size: 20px;
+                                                            margin-left: 1050px;
+                                                          }  
+                                                     
+                                                                                                                                                                      
